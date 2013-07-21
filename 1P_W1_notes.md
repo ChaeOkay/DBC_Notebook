@@ -57,6 +57,12 @@ Nested Arrays
   -  Passing blocks to delcare default values
     -  Array.new(5) { |item| item**2 }
 
+Hash constructors
+  -  starting with ar = [[1, "one"], [2, "two"]]
+      -  Hash[ar] => {1=>"one", 2=>"two"}
+  -  starting with ar = [0, [1, "one"], 2, [2, "two"]]
+      -  Hash[*ar] => {0=>[1, "one"], 2=>[2, "two"]}
+
 Debugging
 -  Don't program and debug
     -  have a plan, program, and then debug
