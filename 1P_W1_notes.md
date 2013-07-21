@@ -48,7 +48,7 @@ Scope
           me = ["apple"]
         end
         go(me)
-        p me    => ["orange"]
+        p me    => ["apple"]
 
 Nested Arrays
   -  Two ways of creating 2D array:
