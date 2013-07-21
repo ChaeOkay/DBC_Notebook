@@ -39,7 +39,7 @@ Scope
           me << "apple"
         end
         go(me)
-        p me
+        p me    => ["orange", "apple"]
 
       ex2:
 
@@ -48,7 +48,7 @@ Scope
           me = ["apple"]
         end
         go(me)
-        p me
+        p me    => ["orange"]
 
 Nested Arrays
   -  Two ways of creating 2D array:
