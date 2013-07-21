@@ -59,11 +59,14 @@ Nested Arrays
 
 Debugging
 -  Don't program and debug
-  -  have a plan, program, and then debug
+    -  have a plan, program, and then debug
 -  Test early, test often
 -  Keep methods small, provide proper naming
 -  Test extremes of ranges
--  Isolate the problem, visualize the state, assume the actual value
+-   Patterns
+    -  Isolate the problem
+    -  visualize the state
+    -  assume the actual value
 
 MVP - minimum viable product
 
