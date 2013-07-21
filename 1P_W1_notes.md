@@ -43,12 +43,12 @@ Scope
 
       ex2:
 
-      me = ["orange"]
-      def go(me)
-        me = ["apple"]
-      end
-      go(me)
-      p me
+        me = ["orange"]
+        def go(me)
+          me = ["apple"]
+        end
+        go(me)
+        p me
 
 Nested Arrays
   -  Two ways of creating 2D array:
