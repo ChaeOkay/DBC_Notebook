@@ -33,6 +33,7 @@ Recursion
 Scope
   -  variables are not always remembered in and out of blocks / methods
       ex1:
+
         me = ["orange"]
         def go(me)
           me << "apple"
@@ -41,6 +42,7 @@ Scope
         p me
 
       ex2:
+
       me = ["orange"]
       def go(me)
         me = ["apple"]
@@ -72,11 +74,11 @@ Engineering Empathy - Feedback:
   -  actionable
       -  Make a request, not a demand. Give people a choice to take action, leave room for a 'no'.
   -  specific
-    -  Specificity in a request can make things easier for the other person.
+      -  Specificity in a request can make things easier for the other person.
   -  kind
-    -  Understand that theis person is in a vulnerable situation.
-    -  Truthful is not the same as nice.
-    -  Try and leave judgement  and opinion.
+      -  Understand that theis person is in a vulnerable situation.
+      -  Truthful is not the same as nice.
+      -  Try and leave judgement  and opinion.
 -   Receiving Feedback
   -  Have compassion for yourself
   -  It's okay to walk away with 1%

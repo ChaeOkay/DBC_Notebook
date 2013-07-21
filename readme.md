@@ -1,2 +1,2 @@
-#(DevBootCamp) [www.devbootcamp.com]
-Notes by Chae O'Keefe
+[DBC Notebook](www.devbootcamp.com)
+Weekly notes from Chae O'Keefe's written journals
