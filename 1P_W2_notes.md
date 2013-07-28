@@ -112,23 +112,23 @@ Code Tidbits
 -  Inheritance
 
             class Fruit
-                def juicy?(options)
-                    options.sample
-                end
+              def juicy?(options)
+                options.sample
+              end
             end
 
             def Orange < Fruit
-                def juicy?
-                    options = [true, true, true, true, false]
-                    super(options)
-                end
+              def juicy?
+                options = [true, true, true, true, false]
+                super(options)
+              end
             end
 
             def Apple < Fruit
-                def juicy?
-                    options = [true, true, false]
-                    super(options)
-                end
+              def juicy?
+                options = [true, true, false]
+                super(options)
+              end
             end
 
 Other Tidbits
