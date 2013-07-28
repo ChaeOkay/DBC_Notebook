@@ -109,6 +109,27 @@ Code Tidbits
 
             @undefined_instance_variable.nil?
               => true
+-  Inheritance
+
+            class Fruit
+                def juicy?(options)
+                    options.sample
+                end
+            end
+
+            def Orange < Fruit
+                def juicy?
+                    options = [true, true, true, true, false]
+                    super(options)
+                end
+            end
+
+            def Apple < Fruit
+                def juicy?
+                    options = [true, true, false]
+                    super(options)
+                end
+            end
 
 Other Tidbits
 -  If you have a hammer, make sure you're using it to hit a nail
